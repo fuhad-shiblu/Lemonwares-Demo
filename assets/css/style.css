@@ -1,0 +1,608 @@
+/* ===== Common CSS Part Start ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --poppins: "Poppins", sans-serif;
+    --inter: "Inter", sans-serif;
+}
+/* ===== Common CSS Part End ===== */
+
+/* Navbar CSS Part Start */
+nav{
+    margin-top: 41px;
+}
+.fuhadShiblu_navLogo img{
+    width: 90.81px;
+}
+.fuhadShiblu_navServLink a{
+    font-size: 15px;
+    font-family: var(--poppins);
+}
+.fuhadShiblu_navServLink a:hover{
+    color: #B00000 !important;
+}
+.fuhadShiblu_navServLink a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #B00000;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all linear .1s;
+}
+.fuhadShiblu_navServLink a:hover::after{
+    width: 72px;
+}
+.fuhadShiblu_navMenu ul{
+    gap: 33px;
+}
+.fuhadShiblu_navMenu ul li a{
+    font-size: 15px;
+    font-family: var(--poppins);
+    transition: all linear .1s;
+}
+.fuhadShiblu_navMenu ul li a:hover{
+    color: #B00000 !important;
+}
+.fuhadShiblu_navAcnt a{
+    font-size: 15px;
+    font-family: var(--poppins);
+    transition: all linear .1s;
+}
+.fuhadShiblu_navAcnt a:hover{
+    color: #B00000 !important;
+}
+.fuhadShiblu_navPhone{
+    gap: 6px;
+}
+.fuhadShiblu_navPhone img{
+    width: 20px;
+    height: 20px;
+}
+.fuhadShiblu_navPhone p{
+    font-size: 16px;
+    font-family: var(--poppins);
+    line-height: 15px;
+}
+/* Navbar CSS Part End */
+
+/* Banner CSS Part Start */
+#fuhadShiblu_hostMain{
+    margin-top: 80px;
+}
+.fuhadShiblu_bannerMenu ul{
+    width: 248px;
+    gap: 23px;
+}
+.fuhadShiblu_bannerMenu ul li a{
+    font-size: 15px;
+    font-family: var(--poppins);
+    color: #D6D4D4;
+    transition: all linear .1s;
+}
+.fuhadShiblu_bannerMenu ul li a:hover{
+    color: #B00000;
+}
+.fuhadShiblu_bannerMenu ul::after{
+    content: '';
+    width: 242px;
+    height: 1px;
+    background: #D6D4D4;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.fuhadShiblu_bannerMenu ul li a::after{
+    content: '';
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: all linear .1s;
+}
+.fuhadShiblu_bannerMenu ul li a:hover::after{
+    width: 47px;
+    background: #B00000;
+}
+.fuhadShiblu_bannerTxtArea h1{
+    margin: 26px 0 34px;
+    width: 608px;
+    font-size: 64px;
+    font-family: var(--poppins);
+    color: #2E2E2E;
+    line-height: 77.5px;
+}
+.fuhadShiblu_bannerTxtArea p{
+    margin: 26px 0 34px;
+    width: 448px;
+    font-size: 16px;
+    font-family: var(--inter);
+    color: #808080;
+}
+.fuhadShiblu_bannerTxtLinks{
+    gap: 24px;
+}
+.fuhadShiblu_bannerTxtLinks a{
+    font-size: 14px;
+    font-family: var(--poppins);
+    line-height: 24px;
+    padding: 12px 18px;
+    border: 1px solid;
+    border-radius: 8px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_bannerTxtLinks a:hover{
+    background: #B00000;
+    border: 1px solid #B00000 !important;
+    color: #fff !important;
+}
+.fuhadShiblu_bannerImg{
+    width: 501px;
+    height: 504px;
+    background: url(/assets/img/banner.png);
+    transition: all linear .1s;
+}
+.fuhadShiblu_bannerImg:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_bannerElementsA{
+    width: 40px;
+    height: 40px;
+    top: 63px;
+    left: 486px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_bannerElementsA:hover{
+    transform: scale(.9);
+}
+.fuhadShiblu_bannerElementsB{
+    width: 40px;
+    height: 40px;
+    top: 303px;
+    left: -26px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_bannerElementsB:hover{
+    transform: scale(.9);
+}
+.fuhadShiblu_bannerElementsC{
+    width: 72px;
+    height: 72px;
+    top: 391px;
+    left: 454px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_bannerElementsC:hover{
+    transform: scale(.9);
+}
+.fuhadShiblu_trWebHostTxtArea h2{
+    margin-top: 79px;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: var(--inter);
+    color: #18191F;
+    line-height: 64px;
+}
+.fuhadShiblu_trWebHostTxtArea p{
+    width: 573px;
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #18191F;
+    line-height: 32px;
+}
+.fuhadShiblu_trWebHostImg{
+    margin-top: 104px;
+    gap: 81px;
+}
+.fuhadShiblu_trWebHostImg img{
+    width: 125px;
+    height: 30px;
+}
+.fuhadShiblu_trWebHostItems{
+    width: 259px;
+    margin-top: 123px;
+    text-align: center;
+}
+.fuhadShiblu_trWebHostItems img{
+    width: 101px;
+    height: 100px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_trWebHostItems img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_trWebHostItems h3{
+    margin: 12px 0 4px;
+    font-size: 20px;
+    font-family: var(--poppins);
+    font-weight: 700;
+}
+.fuhadShiblu_trWebHostItems p{
+    margin: 12px 0 4px;
+    font-size: 12px;
+    font-family: var(--poppins);
+}
+/* Banner CSS Part End */
+
+/* Hosting Pricing CSS Part Start */
+#fuhadShiblu_hostPricing{
+    margin-top: 133px;
+}
+.fuhadShiblu_hostPricingTxtArea h4{
+    width: 650px;
+    margin: 0 auto;
+    font-size: 50px;
+    font-family: var(--poppins);
+    line-height: 60px;
+}
+.fuhadShiblu_hostPricingTxtArea p{
+    margin: 38px auto 57px;
+    font-size: 25px;
+    font-family: var(--poppins);
+    line-height: 60px;
+}
+.fuhadShiblu_hostPricingSelectBtns{
+    gap: 31px;
+}
+.fuhadShiblu_hostPricingSelectBtns p{
+    font-size: 25px;
+    font-family: var(--poppins);
+    line-height: 25px;
+}
+.fuhadShiblu_hostPricingSelect{
+    gap: 332px;
+    margin: 71px 0 95px;
+}
+.fuhadShiblu_hostPricingSelect::after{
+    content: '';
+    width: 856px;
+    height: 4px;
+    position: absolute;
+    background: #C4C4C4;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.fuhadShiblu_hostPricingSelect button{
+    font-size: 30px;
+    font-family: var(--poppins);
+    line-height: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.fuhadShiblu_hostPricingSelect button::after{
+    content: '';
+    width: 0;
+    height: 4px;
+    background: #B00000;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: all linear .1s;
+}
+.fuhadShiblu_hostPricingSelect button:hover::after{
+    width: 443px;
+}
+.fuhadShiblu_selBtn{
+    width: 93px;
+    height: 50px;
+    background: #B00000;
+    border-radius: 73px;
+}
+.fuhadShiblu_selBtnRound{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    left: 9px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fuhadShiblu_hostPricingDiscount{
+    width: 87px;
+    height: 24px;
+    background: #FFE87A;
+    border-radius: 8px;
+    font-size: 10px !important;
+}
+.fuhadShiblu_hostPricingMain{
+    width: 299px;
+    height: 716px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_hostPricingMain:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_hostPricingMain h5{
+    font-size: 28px;
+    font-family: var(--poppins);
+    line-height: 25px;
+    margin: 34px 0 11px 34px;
+}
+.fuhadShiblu_hostPricingMain p{
+    width: 237px;
+    font-size: 12px;
+    font-family: var(--poppins);
+    line-height: 18px;
+    margin: 0 0 28px 35px;
+}
+.fuhadShiblu_hostPriceMain{
+    font-size: 42px !important;
+    font-family: var(--poppins);
+    line-height: 32px !important;
+    margin: 0 0 11px 37px !important;
+}
+.fuhadShiblu_hostPriceTime{
+    font-size: 14px !important;
+    font-family: var(--poppins);
+    line-height: 14px !important;
+    margin: 0 0 35px 41px !important;
+}
+.fuhadShiblu_hostPricingMain a{
+    width: 235px;
+    height: 50px;
+    font-size: 14px;
+    font-family: var(--poppins);
+    line-height: 32px;
+    border-radius: 12px;
+    border: 2px solid #000;
+    margin: 0 0 35px 35px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_hostPricingMain a:hover{
+    background: #B00000;
+    border: 2px solid #B00000;
+    color: #fff !important;
+}
+.fuhadShiblu_hostPricingCond{
+    gap: 15px;
+    margin: 0 0 48px 35px;
+}
+.fuhadShiblu_hostPricingCond span{
+    gap: 24px;
+}
+/* Hosting Pricing CSS Part End */
+
+/* Real Stories CSS Part Start */
+#fuhadShiblu_realStoriesMain{
+    margin-top: 105px;
+}
+.fuhadShiblu_realStoriesQuote{
+    width: 143px;
+    height: 120px;
+    top: 0;
+    left: 64px;
+}
+.fuhadShiblu_realStoriesQuoteTxtArea{
+    top: 58px;
+    left: 159px;
+}
+.fuhadShiblu_realStoriesQuoteTxtArea h5{
+    width: 445px;
+    font-size: 48px;
+    font-family: var(--inter);
+    font-weight: 800;
+    color: #18191F;
+    line-height: 64px;
+}
+.fuhadShiblu_realStoriesQuoteTxtArea p{
+    margin-top: 8px;
+    font-size: 18px;
+    font-family: var(--inter);
+    font-weight: 800;
+    color: #18191F;
+}
+.fuhadShiblu_realStoriesCli{
+    width: 350px;
+    border-radius: 8px;
+    top: 248px;
+    left: 254px;
+    box-shadow: 0px 3px 10px -2px #969BAB;
+}
+.fuhadShiblu_realStoriesCli img{
+    width: 120px;
+    height: 120px;
+    transition: all linear .1s;
+    margin: 7px 0 0 64px;
+}
+.fuhadShiblu_realStoriesCli img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_realStoriesCli p{
+    width: 254px;
+    font-size: 16px;
+    font-family: var(--inter);
+    line-height: 32px;
+    margin: 0 0 24px 64px;
+}
+.fuhadShiblu_realStoriesCli span{
+    font-size: 18px;
+    font-family: var(--inter);
+    color: #18191F;
+    line-height: 28px;
+    margin: 0 0 0 64px;
+}
+.fuhadShiblu_realStoriesCreditA{
+    font-size: 14px !important;
+    font-family: var(--inter) !important;
+    line-height: 24px !important;
+    color: #969BAB !important;
+    margin-bottom: 0 0 96px 64px !important;
+}
+.fuhadShiblu_realStoriesJpnl{
+    width: 445px;
+    border-radius: 8px;
+    top: 104px;
+    left: 634px;
+    box-shadow: 0px 3px 10px -2px #969BAB;
+}
+.fuhadShiblu_realStoriesJpnl img{
+    width: 78.87px;
+    height: 50px;
+    transition: all linear .1s;
+    margin: 39px 0 15px 64px;
+}
+.fuhadShiblu_realStoriesJpnl img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_realStoriesJpnl p{
+    width: 349px;
+    font-size: 16px;
+    font-family: var(--inter);
+    line-height: 32px;
+    margin: 0 0 24px 64px;
+}
+.fuhadShiblu_realStoriesJpnl span{
+    font-size: 18px;
+    font-family: var(--inter);
+    color: #18191F;
+    line-height: 28px;
+    margin: 0 0 0 64px;
+}
+.fuhadShiblu_realStoriesCreditB{
+    font-size: 14px !important;
+    font-family: var(--inter) !important;
+    line-height: 24px !important;
+    color: #969BAB !important;
+    margin-bottom: 0 0 14px 64px !important;
+}
+.fuhadShiblu_realStoriesLob{
+    width: 350px;
+    border-radius: 8px;
+    top: 476px;
+    left: 634px;
+    box-shadow: 0px 3px 10px -2px #969BAB;
+}
+.fuhadShiblu_realStoriesLob img{
+    width: 120px;
+    height: 63px;
+    transition: all linear .1s;
+    margin: 41px 0 0 55px;
+}
+.fuhadShiblu_realStoriesLob img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_realStoriesLob p{
+    width: 254px;
+    font-size: 16px;
+    font-family: var(--inter);
+    line-height: 32px;
+    margin: 0 0 24px 64px;
+}
+.fuhadShiblu_realStoriesLob span{
+    font-size: 18px;
+    font-family: var(--inter);
+    color: #18191F;
+    line-height: 28px;
+    margin: 0 0 0 64px;
+}
+.fuhadShiblu_realStoriesCreditC{
+    font-size: 14px !important;
+    font-family: var(--inter) !important;
+    line-height: 24px !important;
+    color: #969BAB !important;
+    margin-bottom: 0 0 32px 64px !important;
+}
+.fuhadShiblu_realStoriesTxtArea{
+    width: 445px;
+    top: 857px;
+    left: 0;
+}
+.fuhadShiblu_realStoriesTxtArea h6{
+    width: 100%;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: var(--inter);
+    color: #18191F;
+    line-height: 64px;
+}
+.fuhadShiblu_realStoriesTxtArea p{
+    width: 100%;
+    font-size: 18px;
+    font-family: var(--inter);
+    color: #18191F;
+    line-height: 32px;
+    margin-top: 8px;
+}
+.fuhadShiblu_realStoriesImgItems{
+    width: 550px;
+    gap: 65px;
+    top: 836px;
+    left: 704px;
+}
+.fuhadShiblu_realStoriesImgItems img{
+    width: 120px;
+    height: 120px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_realStoriesImgItems img:hover{
+    transform: scale(1.1);
+}
+/* Real Stories CSS Part End */
+
+/* Navbar CSS Part Start */
+/* Navbar CSS Part End */
+
+/* Navbar CSS Part Start */
+/* Navbar CSS Part End */
+
+/* Navbar CSS Part Start */
+/* Navbar CSS Part End */
+
+/* Navbar CSS Part Start */
+/* Navbar CSS Part End */
+
+/* Navbar CSS Part Start */
+/* Navbar CSS Part End */
+
+/* Navbar CSS Part Start */
+/* Navbar CSS Part End */
+
+/* Navbar CSS Part Start */
+/* Navbar CSS Part End */
+
+/* Navbar CSS Part Start */
+/* Navbar CSS Part End */
