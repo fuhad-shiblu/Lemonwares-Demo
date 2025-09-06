@@ -583,26 +583,124 @@ nav{
 }
 /* Real Stories CSS Part End */
 
-/* Navbar CSS Part Start */
-/* Navbar CSS Part End */
+/* Get In Touch CSS Part Start */
+#fuhadShiblu_gitMain{
+    margin-top: 1206px;
+    background: #F7FAFE;
+    border-radius: 10px;
+}
+.fuhadShiblu_gitTxtArea h1{
+    text-align: center;
+    margin: 80px auto 40px;
+    width: 1024px;
+    font-size: 64px;
+    font-family: var(--poppins);
+    color: #2E2E2E;
+    line-height: 88px;
+}
+.fuhadShiblu_gitTxtArea a{
+    width: 208px;
+    height: 48px;
+    text-align: center;
+    margin: 0 auto 88px;
+    border-radius: 8px;
+    background: #B00000;
+    font-size: 14px;
+    font-family: var(--poppins);
+    color: #2E2E2E;
+    line-height: 24px;
+    gap: 9px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_gitTxtArea a:hover{
+    transform: scale(.9);
+}
+.fuhadShiblu_gitTxtArea i{
+    font-size: 25px;
+}
+.fuhadShiblu_gitElementA{
+    top: 304px;
+    left: -15px;
+    width: 40px;
+    height: 40px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_gitElementA:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_gitElementB{
+    top: 0;
+    left: 434px;
+    width: 40px;
+    height: 40px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_gitElementB:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_gitElementC{
+    top: 320px;
+    right: -25px;
+    width: 40px;
+    height: 40px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_gitElementC:hover{
+    transform: scale(1.1);
+}
+/* Get In Touch CSS Part End */
 
-/* Navbar CSS Part Start */
-/* Navbar CSS Part End */
-
-/* Navbar CSS Part Start */
-/* Navbar CSS Part End */
-
-/* Navbar CSS Part Start */
-/* Navbar CSS Part End */
-
-/* Navbar CSS Part Start */
-/* Navbar CSS Part End */
-
-/* Navbar CSS Part Start */
-/* Navbar CSS Part End */
-
-/* Navbar CSS Part Start */
-/* Navbar CSS Part End */
-
-/* Navbar CSS Part Start */
-/* Navbar CSS Part End */
+/* Footer CSS Part Start */
+footer{
+    background: #B00000;
+    margin-top: 110px;
+}
+.fuhadShiblu_footerCredLogo img{
+    width: 120.96px;
+    height: 80px;
+    margin: 64px 0 16px;
+}
+.fuhadShiblu_footerCredLogo h2{
+    width: 296px;
+    font-size: 16px;
+    font-family: var(--inter);
+    color: #E6E6E6;
+    line-height: 32px;
+}
+.fuhadShiblu_footerMenu h3{
+    margin: 80px 0 24px;
+    font-size: 16px;
+    font-family: var(--inter);
+    line-height: 24px;
+}
+.fuhadShiblu_footerMenuLinks{
+    gap: 24px;
+}
+.fuhadShiblu_footerMenuLinks a{
+    font-size: 16px;
+    font-family: var(--inter);
+    line-height: 32px;
+    color: #E6E6E6;
+}
+.fuhadShiblu_footerMenuLinks a:hover{
+    text-decoration: underline;
+}
+.fuhadShiblu_footerCreditA{
+    font-size: 16px;
+    font-family: var(--inter);
+    line-height: 32px;
+    margin-top: 104px;
+}
+.fuhadShiblu_creditB{
+    margin-top: 104px;
+    padding-bottom: 24px;
+    font-size: 15px;
+    font-family: var(--roboto);
+}
+.fuhadShiblu_heart{
+    color: #ff0000;
+}
+.fuhadShiblu_creditB a:hover{
+    text-decoration: underline;
+}
+/* Footer CSS Part End */
